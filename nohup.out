@@ -1,0 +1,351 @@
+  File "password-evolution.py", line 52
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+    ^
+IndentationError: expected an indented block
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 52, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 52, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 52, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [12/Dec/2021 14:59:51] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:01:01] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:01:44] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:18:36] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:18:46] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:24:08] "[37mGET / HTTP/1.1[0m" 200 -
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 52, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 52, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [12/Dec/2021 15:28:11] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:32:11] "[31m[1mPOST /signup/v1 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 15:35:07] "[37mPOST /signup/v1 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 15:39:24] "[37mPOST /signup/v1 HTTP/1.1[0m" 200 -
+  File "password-evolution.py", line 61
+    hash_value =
+    ^
+IndentationError: expected an indented block
+  File "password-evolution.py", line 62
+    c.execute("INSERT INTO USER_HASH (USERNAME, HASH) "
+    ^
+SyntaxError: invalid syntax
+  File "password-evolution.py", line 64
+    conn.commit()
+    ^
+SyntaxError: invalid syntax
+  File "password-evolution.py", line 64
+    conn.commit()
+    ^
+SyntaxError: invalid syntax
+  File "password-evolution.py", line 68
+    return "signup success
+    ^
+IndentationError: unexpected indent
+  File "password-evolution.py", line 68
+    return "signup success
+                         ^
+SyntaxError: EOL while scanning string literal
+  File "password-evolution.py", line 68
+    return "signup success
+    ^
+IndentationError: unexpected indent
+  File "password-evolution.py", line 67
+    print('username: ', request.form['username'], ' password: ', request.form['password'], ' hash: ', hash_value) return "signup success
+                                                                                                                  ^
+SyntaxError: invalid syntax
+  File "password-evolution.py", line 68
+    return "signup success
+                         ^
+SyntaxError: EOL while scanning string literal
+  File "password-evolution.py", line 68
+    return "signup success"
+    ^
+IndentationError: unexpected indent
+  File "password-evolution.py", line 71
+    conn = sqlite3.connect(db_name)
+    ^
+IndentationError: expected an indented block
+  File "password-evolution.py", line 89
+    else:
+    ^
+SyntaxError: invalid syntax
+  File "password-evolution.py", line 87
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 96, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 96, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 96, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 96, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "password-evolution.py", line 96, in <module>
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+  File "/home/devasc/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 996, in inner
+    srv = make_server(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 847, in make_server
+    return ThreadedWSGIServer(
+  File "/home/devasc/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "password-evolution" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [12/Dec/2021 16:19:43] "[31m[1mPOST /signup/v2 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 16:20:31] "[37mPOST /signup/v2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:24:36] "[33mGET /login/v2' HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Dec/2021 16:24:44] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:24:49] "[33mGET /login/v2' HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Dec/2021 16:31:54] "[33mGET /signup/v1' HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Dec/2021 16:31:57] "[31m[1mGET /signup/v1 HTTP/1.1[0m" 405 -
+127.0.0.1 - - [12/Dec/2021 16:32:20] "[31m[1mGET /signup/v2 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 16:32:24] "[33mGET /signup/v2' HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Dec/2021 16:32:55] "[31m[1mGET /signup/v2 HTTP/1.1[0m" 400 -
+127.0.0.1 - - [12/Dec/2021 16:33:02] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:34:00] "[37mGET /login/v2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:35:13] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:35:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Dec/2021 16:35:17] "[37mGET /login/v2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:35:19] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Dec/2021 16:35:20] "[31m[1mGET /signup/v2 HTTP/1.1[0m" 400 -
